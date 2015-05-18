@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "ABOAuthCore"
-  s.version      = "0.0.5"
+  s.version      = "0.0.6"
   s.summary      = "ABOAuth Core is a dependency of TWTReverseOauth"
 
   s.description  = <<-DESC
@@ -39,7 +39,7 @@ Pod::Spec.new do |s|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  s.license      = "none"
+  s.license      = "mit"
   # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
