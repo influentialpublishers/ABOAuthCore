@@ -1,14 +1,3 @@
-# ABOAuthCore
-A pod for ABOAuthCore
-
-
-//
-//  OAuthCore.h
-//
-//  Created by Loren Brichter on 6/9/10.
-//  Copyright 2010 Loren Brichter. All rights reserved.
-//
-
 /*
  *  NSData+Base64.h
  *  AQToolkit
@@ -46,3 +35,15 @@ A pod for ABOAuthCore
  *  SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  *
  */
+
+#import <Foundation/NSData.h>
+
+@class NSString;
+
+@interface NSData (Base64)
+
++ (NSData *) dataFromBase64String: (NSString *) base64String;
+- (id) initWithBase64String: (NSString *) base64String;
+- (NSString *) base64EncodedString;
+
+@end
