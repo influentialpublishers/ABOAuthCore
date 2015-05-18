@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "ABOAuthCore"
-  s.version      = "0.0.3"
+  s.version      = "0.0.4"
   s.summary      = "ABOAuth Core is a dependency of TWTReverseOauth"
 
   s.description  = <<-DESC
